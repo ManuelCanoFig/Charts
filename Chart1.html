@@ -1,0 +1,22 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi primera grafica</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="dist/Chart.bundle.min"></script>
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<div id="canvas-container">
+		<canvas id="chart" width="500" height="350"></canvas>
+	</div>
+	<?php
+						  include 'config.php';
+						  $log = mysqli_query($conex,"SELECT * FROM ejemplo");
+						  echo("$log");
+    ?>
+</body>
+</html>
