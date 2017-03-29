@@ -24,6 +24,7 @@
 	<?php
   	include("barra.html");
 	?>
+	<h1>holaa</h1>
 	<br>
 	<br>
 	<br>
