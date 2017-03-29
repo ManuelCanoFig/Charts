@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$.ajax({
-		url:"http://localhost/chart/Chart1.php",
+		url:"http://localhost/chart/graficas/Chart1.php",
 		method: "GET",
 		success: function(data){
 			console.log(data);

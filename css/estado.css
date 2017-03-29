@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+span.icon-cross{
+	display: none;
+}
+span.icon-menu3{
+    padding: 2px;
+	border: .10px solid #d0d1d5;
+}
+/* INDEX - INICIO */
+/*Header*/
+.menu_bar {
+	display:none;
+}
+
+
+@font-face {
+	font-family:"Yanone";
+	src:url(../YanoneKaffeesatz.ttf);
+}
+li, h2, p, a, h1, h3, td, h4, h5, h6,label{
+	font-family: "Yanone";
+
+}
+header {
+	width: 100%;
+	display: block;
+}
+ 
+header nav.Web{
+	font-size: 20px;
+	box-shadow: 0px 2px 5px #2f3030;
+	position: fixed;
+	background:#0998db;
+	z-index:1000;
+	width: 100%;
+	max-width: 100%;
+	margin:0px auto;
+}
+ 
+header nav.Web ul {
+	list-style:none;
+}
+ 
+header .Web ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav.Web ul li:hover {
+	background:#097bb0;
+}
+ 
+header nav.Web ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 14px;
+}
+li.logo a{
+	font-size: 30px;
+}
+header nav.Web ul li a span {
+	margin-right:10px;
+}
+ 
+header nav.Web ul li:hover .children {
+	display:block;
+}
+ 
+header nav.Web ul li .children {
+	display: none;
+	background:#2f332f;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+header nav.Web ul li.logo {
+	width: 300px;
+	background: url(../logo.png);
+	background-repeat: no-repeat;
+}
+header nav.Web ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav.Web ul li .children li a {
+	display: block;
+}
+ 
+header nav.Web ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav.Web ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+body{
+	background: #e9ebee;
+}
+section.mainestado{
+	width: 70%;
+    background: #fff;
+    border: .10px solid #d0d1d5;
+    display: block;
+    margin-left: 50px;
+    padding: 20px;
+    padding-right: 0;
+    margin-top: 25px;
+}
+section.parrafos{
+	display: table;
+	width: 100%;
+}
+article.sensor{
+	display: table-cell;
+	width: 33.3%;
+	padding: 10px;
+	text-align: justify;
+}
+/*ASIDE*/
+aside{
+	padding: 10px;
+	margin-top: -100px;
+	position: fixed;
+	top: 200px;
+	right: -10px;
+	border-radius: 5px;
+	display: table-cell;
+	width: 20%;
+	background: #383333;
+	color: #fff;
+	border: .5px solid #dfe0e4;
+}
+/*fotter*/

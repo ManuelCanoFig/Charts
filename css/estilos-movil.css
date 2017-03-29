@@ -1,0 +1,158 @@
+@media screen and (max-width:800px ) {
+	/*Barra*/
+	img.logo{
+		display: none;
+	}
+	.menu_bar  {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		height: 70px;
+		background:#0998db;
+		background-repeat: no-repeat;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 16px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+	header nav.Web {
+		text-align: center;
+		opacity: 0.9;
+		width: 70%;
+		height: calc(100% - 72px);
+		position: fixed;
+		right:100%;
+		top:70px;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+    header nav.Web ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav.Web ul li a {
+		display: block;
+		text-align: center;
+	}
+ 
+	header nav.Web ul li:hover .children {
+		display: none;
+		width: 100%;
+	}
+ 
+ header nav.Web ul li .children {
+ 	text-align: center;
+	display: none;
+	background:#2f332f;
+	position: relative;
+	width: 100%;
+	z-index:1000;
+}
+	header nav.Web ul li .children {
+	
+	}
+ 
+	header nav.Web ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav.Web ul li .caret {
+		float: right;
+	}
+	/*Quitar imagen para mover*/
+    header nav.Web ul li.logo {
+	display: none;
+    }
+    /*ASIDE*/
+aside{
+	position: static;
+	word-wrap: break-word;
+	padding: 10px;
+	margin-top: 100px;
+	border-radius: 5px;
+	display: block;
+	width: 60%;
+	margin-left: 18%;
+	background: #fff;
+	color: #000;
+	border: .5px solid #dfe0e4;
+}
+
+	/*CUERPO*/
+	section.main{
+    margin-right: 15%;
+	margin-left: 15%;
+    }
+    section.mainestado{
+	width: 80%;
+    background: #fff;
+    border: .10px solid #d0d1d5;
+    display: block;
+    margin-left: 50px;
+    padding: 0;
+    padding-right: 0;
+    margin-top: 25px;
+    }
+    section.parrafos{
+	display: table;
+	width: 80%;
+    }
+    article.sensor{
+    padding-left: 10%;
+	display: table;
+	width: 100%;
+    }
+
+}
+@media screen and (max-width:600px ) {
+	/*ASIDE*/
+aside{
+	word-wrap: break-word;
+	padding: 10px;
+	margin-top: 100px;
+	border-radius: 5px;
+	display: block;
+	margin-left: 10%;
+	width: 75%;
+	background: #fff;
+	color: #000;
+	border: .5px solid #dfe0e4;
+}
+}
+@media screen and (max-width:500px ) {
+	section.main{
+    margin-right: 0%;
+	margin-left: 0%;
+}
+section.mainestado{
+	width: 100%;
+    background: #fff;
+    border: .10px solid #d0d1d5;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 25px;
+    }
+    section.parrafos{
+	display: table;
+	width: 90%;
+    }
+    article.sensor{
+    	padding: 20px;
+    }
+
+}
