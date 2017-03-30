@@ -30,7 +30,7 @@ $(document).ready(function(){
 			};
 			var canvas = document.getElementById('chart').getContext('2d');
 			window.pie = new Chart(canvas,{
-				type: 'bar',
+				type: 'pie',
 				data: chartdata
 			});
 		},

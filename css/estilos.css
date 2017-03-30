@@ -119,6 +119,7 @@ span.icon-menu3{
     padding: 2px;
 	border: .10px solid #d0d1d5;
 }
+
 section.main{
 	margin-right: 35%;
 	margin-left: 35%;
@@ -131,6 +132,12 @@ section.main{
     padding-right: 40px;
     text-align: left;
 }
+.chido{
+	display: inline-block;
+	float: right;
+	
+}
+
 section.main div.sesion{
 text-align: center;
 font-size: 30px;

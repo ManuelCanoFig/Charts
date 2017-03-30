@@ -1,8 +1,6 @@
 <?php
 	session_start();
 ?>
-<!DOCTYPE html>
-<html>
 <head>
 	<meta charset="utf-8">
 	<title>
@@ -17,4 +15,3 @@
 		<canvas id="chart" width="500" height="350"></canvas>
 	</div>
 </body>
-</html>
