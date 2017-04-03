@@ -41,40 +41,37 @@
 	<br>
 	<br>
 	<br>
-	
-   <section aling="center" style="width:60%;">
-		<div id="canvas-container" >
-			<canvas id="chart" width="500" height="350" ></canvas>
+  
+   <section class="ricura">
+		<div style="width: 40%;">
+			<canvas id="chart"  width="300px" height="250px"></canvas>
 		</div>
-	</section>
-	<section>
     <aside class="chido">
-		<section class="main">
-			<div class="sesion">
-			  <h2>Historial</h2>
-			</div>
-					<article>
-						<h3>Temperatura</h3>
-					</article>
-					<article>
-						<h3>Iluminación</h3>
-					</article>
-					<article>
-						<h3>Humedad</h3>
-					</article>
-		</section>
-	
-	</aside>
+   		<section class="main">
+    		<div class="sesion"><h1>Historial</h1></div>
+     	     	<ul style="text-align: center;">
+		     	<article>
+		     		 <label>Temperatura</label>
+		     	</article>
+		     	<article>
+		     		 <label>Iluminación</label>
+		     	</article>
+		     	<article>
+		     		 <label>Humedad</label>
+		     	</article>
+		     	<article>
+		     		 <label>no se</label>
+		     	</article>
+		    </ul>
+	 	</section>
+    </aside>
 	</section>
 	
-	<br>
-	<br>
-	<br>
-	<br>
-
+	
+<section style="margin-top: 150px;">
 	<?php 
      include("footer.html");
 	?>
-
+</section>
 </body>
 </html>

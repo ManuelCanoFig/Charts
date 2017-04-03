@@ -134,8 +134,10 @@ section.main{
 }
 .chido{
 	display: inline-block;
-	float: right;
-	
+	width: 700px;
+
+    float: right; 
+
 }
 
 section.main div.sesion{
